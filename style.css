@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.flexible_container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -20,6 +20,10 @@ section {
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .name_color {
@@ -48,4 +52,35 @@ h1 {
 
 .dream_p {
     width: 82%;
+}
+
+.experienches_area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.expraienc_item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#web_dev_expriench {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full_stack_expriench {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
