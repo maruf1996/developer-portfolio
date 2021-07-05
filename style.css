@@ -5,6 +5,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half_width {
@@ -14,7 +15,7 @@ section {
 
 .half_width img {
     width: 82%;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 h1 {
@@ -31,9 +32,20 @@ h1 {
     padding: 10px 40px;
     background-image: linear-gradient(orange, tomato);
     font-weight: bold;
+    border-radius: 10px;
 }
 
 .top_part {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream_p {
+    width: 82%;
 }
